@@ -55,3 +55,17 @@ int main() {
     densidadePopulacionalCidade2 = populacaoCidade2 / areaCidade2;
     pibPerCapitaCidade1 = (pibCidade1 * 1000000000) / populacaoCidade1;
     pibPerCapitaCidade2 = (pibCidade2 * 1000000000) / populacaoCidade2;
+
+    // Exibição dos dados da Carta 1
+
+    printf("\nDados das Cartas:\n");
+    printf("\nCarta 1:\n");
+    printf("Estado: %c\n", estado1);
+    printf("Código: %s\n", codigoCidade1);
+    printf("Nome da Cidade: %s\n", nomeCidade1);
+    printf("População: %d habitantes\n", populacaoCidade1);
+    printf("Área: %.2f km²\n", areaCidade1);
+    printf("PIB: %.2f bilhões de reais\n", pibCidade1);
+    printf("Número de Pontos Turísticos: %d\n", pontosTuristicosCidade1);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacionalCidade1);
+    printf("PIB per Capita: %.2f reais\n", pibPerCapitaCidade1);
