@@ -111,3 +111,5 @@ int main() {
     printf("Super Poder: %s (%d)\n", (superPoderCidade1 > superPoderCidade2) ? 
     "Carta 1 venceu" : "Carta 2 venceu", (superPoderCidade1 > superPoderCidade2) ? 1 : 0);
 
+}
+
